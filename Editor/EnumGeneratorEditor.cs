@@ -23,12 +23,10 @@ public class EnumGeneratorEditor : EditorWindow
         '.', '(', ')', '[', ']', '{', '}'
     };
 
-    [MenuItem("Tools/Generate Enum")]
-    private static void Init()
+    [MenuItem("Window/GenerateEnum")]
+    public static void Open()
     {
-        EditorWindow window = GetWindow(typeof(EnumGeneratorEditor));
-        window.minSize = new Vector2(500, 300);
-        window.Show();
+        GetWindow<EnumGeneratorEditor>(false, "generator");
     }
 
     private void OnGUI()
