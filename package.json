@@ -1,0 +1,15 @@
+{
+    "name": "com.example.enumgeneratoreditor",
+    "version": "1.0.0",
+    "displayName": "Enum Generator Editor",
+    "description": "Unity editor extension for generating enums.",
+    "unity": "2019.4",
+    "dependencies": {
+    },
+    "keywords": [
+      "enum",
+      "editor",
+      "generator"
+    ]
+  }
+  
